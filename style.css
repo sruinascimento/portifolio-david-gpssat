@@ -1,0 +1,177 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background: linear-gradient(90deg, rgb(228, 142, 45), #136bf0);
+	padding: 20px 0;
+    height: 300px;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+#nome{
+    width: 650px;
+    font-size: 50px;
+    position: absolute;
+    top: 120px;
+    right: 300px;
+}
+
+#capivara{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+	border: 10px solid #ffffff;
+    position: absolute;
+    top: 45px;
+    right: 50px;
+}
+
+nav {
+	position: absolute;
+	top: 5px;
+	right: 300px;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #ddd2d2;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:  #41ec5d;
+	text-decoration: underline;
+} 
+
+footer{
+	text-align: center;
+	height: 200px;
+	padding: 0px 0;
+	background: #000000;
+}
+
+.espaço{
+	width: 1349px;
+	height: 300px;
+}
+
+.Copyright{
+	color: #fdfdfd;
+	font-size: 17px;
+	margin: 0px 0 0;
+	position: relative;
+	top: 50px;
+}
+
+
+/*css da página inicial*/
+
+
+.titulo-principal{
+	position: relative;
+	left: 600px;
+	font-size: 2em;
+	margin: 0 0 1em;
+	width: 300px;
+	color: rgb(255, 160, 52);
+}
+
+.titulo-segundario{
+	position: relative;
+	left: 100px;
+	bottom: 80px;
+	font-size: 3em;
+	margin: 0 0 1em;
+	width: 600px;
+	color: rgb(255, 160, 52);
+}
+
+#eu{
+	position: relative;
+	left: 200px;
+	width: 900px;
+	font-size: 30px;
+}
+.principal{
+	position: relative;
+	padding: 3em 0;
+	background:#5796f3;
+	font-size: 25px;
+
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+
+.boneco{
+	border-radius: 200px;
+	border: 10px solid #000000;
+	position: relative;
+	left: 100px;
+	top: -70px;
+	width: 300px;
+	float: left;
+	margin: 0 0px 20px 0px;
+}
+
+.beneficios{
+	padding: 1em 0;
+	background: #5796f3;
+	height: 250px;
+}
+
+.minhas-características{
+	width: 640px;
+	margin: 0 auto;
+}
+
+.características{
+	font-size: 25px;
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	position:relative;
+	right: 10.2em;
+	bottom: 4em;
+}
+
+.itens{
+	line-height: 1.5;
+}
+
+.itens:before{
+	content:"❃";
+}
+
+.imagem-musica{
+	width: 270px;
+	position: absolute;
+	top: 830px;
+	right: 200px;
+	
+}
+
+h4{
+	padding: 10px 0 10px 0 ;
+	font-size: 40px;
+	color: #fdfdfd;
+	position: relative;
+	top: 30px;
+	
+}
+

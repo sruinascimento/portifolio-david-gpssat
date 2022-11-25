@@ -1,0 +1,133 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+ header{
+    background:#5796f3;
+	padding: 20px 0;
+    height: 300px;
+ }
+ 
+
+ .caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+#nome{
+    width: 650px;
+    font-size: 50px;
+    position: absolute;
+    top: 120px;
+    right: 300px;
+
+}
+
+#capivara{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+	border: 10px solid #C78C19;
+    position: absolute;
+    top: 45px;
+    right: 50px;
+}
+
+
+nav {
+	position: absolute;
+	top: 5px;
+	right: 300px;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #ddd2d2;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color:  #41ec5d;
+	text-decoration: underline;
+} 
+
+footer{
+	text-align: center;
+	height: 200px;
+	padding: 0px 0;
+	background: #000000;
+}
+
+.espaço{
+	width: 1349px;
+	height: 300px;
+}
+
+.Copyright{
+	color: #fdfdfd;
+	font-size: 17px;
+	margin: 0px 0 0;
+	position: relative;
+	top: 50px;
+}
+
+.principal{
+    position: relative;
+	padding: 3em 0;
+	background:#5796f3;
+    text-align: center;
+}
+
+
+.titulo-principal{
+    padding: 0 30px 0 0;
+	font-size: 40px;
+	width: 450px;
+	color: rgb(0, 0, 0);
+
+    }
+    
+
+.titulo-segundario{
+    padding: 15px 0 0 0 ;
+    font-size: 30px;
+    width: 450px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.habilidades {
+
+    display: inline-block;
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    vertical-align: top;
+    padding: 30px;
+    border: 6px solid #0b0ed8;
+    border-radius: 32px;
+    background-color: #ff9751;
+    transition: 0.8s all cubic-bezier(0.16, 1, 0.3, 1);
+
+    }
+
+.imagem-coding{
+    width: 300px;
+}
+
+
+h4 {
+	padding: 10px 0 10px 0 ;
+	font-size: 40px;
+	color: #fdfdfd;
+	position: relative;
+	top: 30px;
+}
